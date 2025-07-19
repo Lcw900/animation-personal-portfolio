@@ -23,6 +23,7 @@ export const NavBar = () => {
         initial={{ y: -100 }}
         animate={{ y: 0 }}
         transition={{ duration: 0.6, ease: "easeOut" }}
+        style={{ padding: "0px 2px" }}
       >
         <motion.div
           className="logo"
