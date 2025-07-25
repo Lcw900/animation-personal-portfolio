@@ -111,10 +111,10 @@ const Hero = () => {
               {`const aboutMe: DeveloperProfile = {
   codename: "Lindsey Alcinay",
   origin: "🌍 Middlesex County, NJ",
-  role: "Front End Developer",
+  role: "Front-End Developer",
   stack: {
-    languages: ["JavaScript", "TypeScript", "SQL"],
-    frameworks: ["React", "Next.js", "TailwindCSS", "Supabase"],
+    languages: ["JavaScript", "HTML", "CSS", "SQL"],
+    frameworks & tools: ["React", "Github", "Material Ui", "Boostrap", "Vercel"],
   },
   traits: [
     "pixel-perfectionist",
