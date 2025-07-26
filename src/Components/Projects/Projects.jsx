@@ -69,7 +69,7 @@ export const Projects = () => {
           whileHover={{ y: -10, transition: { duration: 0.2 } }}
         >
           <motion.div
-            className=" project-image"
+            className="project-image"
             style={{ backgroundImage: `url(${stopwatch})` }}
             img
             src={ai}

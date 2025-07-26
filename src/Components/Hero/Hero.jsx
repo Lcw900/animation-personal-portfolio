@@ -1,14 +1,13 @@
 import React from "react";
 import "./Hero.css";
-import { easeInOut, motion, scale } from "framer-motion";
+import { easeInOut, motion } from "framer-motion";
 import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
 import { vscDarkPlus } from "react-syntax-highlighter/dist/esm/styles/prism";
 
 const Hero = () => {
   const fadeInup = {
-    initial: { opacity: 0, y: 20 },
-    animate: { opacity: 1, y: 0 },
-    transition: { duration: 0.6 },
+    initial: { opacity: 0, y: 20, transition: { duration: 0.6 } },
+    animate: { opacity: 1, y: 0, transition: { duration: 0.6 } },
   };
 
   const staggerContainer = {
